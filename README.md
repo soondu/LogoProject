@@ -2,7 +2,7 @@
 
 ## 0. 프로젝트 개요
 
-![출력 예시](./schreenshots/그림4.png)
+![출력 예시](./screenshots/그림4.png)
 본 프로젝트는 C++ 기반으로 도형과 문자열을 결합한 로고를 자동 생성하는 프로그램입니다.  
 사용자는 입력한 문자열에 대해 색상, 뒤집기 여부를 지정할 수 있으며, 문자열 위에 다양한 도형(사각형, 삼각형, 원)을 입히는 방식으로 그래픽 로고를 PNG 파일로 출력할 수 있습니다.  
 텍스트 출력은 ANSI 색상 지원, 도형 그리기는 Bresenham 알고리즘과 flood fill 알고리즘을 통해 구현되었으며, 최종 출력물은 병합 기능을 통해 단일 이미지로 저장됩니다.
@@ -42,9 +42,9 @@ g++ main.cpp color.cpp ppng.cpp draw.cpp drawShape.cpp floodfill.cpp merge.cpp i
 
 ## 3. 예시
  
-![출력 예시](./schreenshots/그림1.png)
-![좌우 반전](./schreenshots/그림2.png)
-![상하 반전](./schreenshots/그림3.png)
+![출력 예시](./screenshots/그림1.png)
+![좌우 반전](./screenshots/그림2.png)
+![상하 반전](./screenshots/그림3.png)
 
 
 ---
